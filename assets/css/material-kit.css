@@ -21973,7 +21973,6 @@ p {
   box-sizing: border-box;
   touch-action: manipulation;
   background: #fff;
-  -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   transform: scale(0.95) !important;
 }
 
@@ -23001,10 +23000,8 @@ span.flatpickr-weekday {
   background: #fff;
   cursor: default;
   box-shadow: inset 0 0 1px #fff, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
-  webkit-transition: 0.3s ease 0s;
   -moz-transition: 0.3s ease 0s;
   -ms-transition: 0.3s ease 0s;
-  -o-transform: 0.3s ease 0s;
   transition: 0.3s ease 0s;
 }
 
