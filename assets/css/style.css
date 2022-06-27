@@ -4,6 +4,10 @@
     box-sizing: 0;
 }
 
+
+.btn:hover{
+    background-color: rgb(240, 225, 255);
+}
 .navbar-nav{
     display: flex;
     margin: 0px 250px 0px 0px;
@@ -75,16 +79,17 @@
     right: 40px;
     width: 40px;
     height: 40px;
-    background-color: blueviolet;
+    background-color: rgb(240, 225, 255);
     text-align: center;
     line-height: 40px;
     border-radius: 50% ;
 }
 
+
 .next{
     display: block;
-    background: blueviolet;
-    color: #fff;
+    background: rgb(240, 225, 255);
+    color: rgb(0, 0, 0);
     height: 30px;
     width: 30px;
     line-height: 30px;
