@@ -1,228 +1,171 @@
-*{
-    margin: 0;
-    padding: 0%;
-    box-sizing: 0;
-}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
+  /*index*/
 
-.btn:hover{
-    background-color: rgb(240, 225, 255);
-}
-.navbar-nav{
+.body_index {
+  background: url(../img/sabri-98.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 1000px; }
+  .body_index .btn:hover {
+    background-color: #f0e1ff; }
+  .body_index .container {
     display: flex;
-    margin: 0px 250px 0px 0px;
-    align-content: center;
-    align-items: center;
-}
+    justify-content: center; }
+  .body_index .margin-button {
+    padding: 400px 0px 200px 0px; }
 
-.margin{
-    margin: 0px 15px;
-}
-.container-fluid .bg-black{
-    padding: 10px 0px 0px 0px;
-}
+    /*INICIO*/
 
-.col-4{
-    padding: 0;
-}
+body .container-fluid .bg-black {
+  padding: 10px 0px 0px 0px; }
 
-.nav-link{
-    background-color: rgb(0, 0, 0);
-    border-radius: 10px;
-}   
+header .img {
+  border-radius: 300px; }
 
+main .row img {
+  width: 100%;
+  vertical-align: top;
+  object-fit: cover; }
 
+main .img-fluid {
+  border-radius: 100px;
+  margin: 5px 0px; }
 
-.row > a{
-    display: block;
-    position:relative;
-    overflow: hidden;
-}
+main .row > a {
+  display: block;
+  position: relative;
+  overflow: hidden; }
 
-.row img{
-    width: 100%;
-    vertical-align: top;
-    object-fit: cover;
-}
+main .row a:hover img {
+  filter: blur(2px); }
 
-.row a:hover img{
-    filter: blur(2px);
-}
-
-.light-box{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, .5);
-    transition: transform .3s ease-in-out;
-    width: 100%;
-    height: 100vh;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: scale(0);
-}
-.light-box img{
-    width: 75vw;
-    max-height: 90vh;
-}
-
-.light-box:target{
-    transform: scale(1);
-}
-
-.close{
-    display: block;
-    position: absolute;
-    top: 90px;
-    right: 40px;
-    width: 40px;
-    height: 40px;
-    background-color: rgb(240, 225, 255);
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50% ;
-}
-
-
-.next{
-    display: block;
-    background: rgb(240, 225, 255);
-    color: rgb(0, 0, 0);
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    text-decoration: none;
-    text-align: center;
-}
-
-
-.row h1{
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 60px;
-    color: rgb(0, 0, 0);
-    font-family: 'Poppins', sans-serif;
-}
-
-.row p{
-    padding: 0;
-    margin: 5px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.img-nosotros{
-    padding-bottom: 100px;
-}
-
-.row h5{
-    padding-top: 50px;
-    padding-bottom: 40px;
-}
-.row ul{
-    list-style: none;
-}
-.row ul li{
-    padding-bottom: 15px;
-}
+main .light-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: transform .3s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0); }
 
 
 
-.container{
-    display: flex;
-    justify-content: center;
-}
+main .next {
+  display: block;
+  background: #f0e1ff;
+  color: black;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center; }
 
-.img-fluid{
-    border-radius: 100px;
-    margin: 5px 0px;
-}
+main .light-box img {
+  width: 75vw;
+  max-height: 90vh; }
 
-.img{
-    border-radius:300px;
-}
+main .close {
+  display: block;
+  position: absolute;
+  top: 90px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #f0e1ff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%; }
 
+.light-box:target {
+  transform: scale(1); }
 
-.mb-4{
-    display: flex;
-    margin: 0px 0px 0px 200px;
-}
+  /*NOSOTROS*/
 
+header .row h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  color: black;
+  font-family: 'Poppins', sans-serif; }
 
-.body_index{
-    background: url(../img/book\ sabri-98.jpg)no-repeat center center/cover; 
-    width: 100%;
-    height: 1000px;
-}   
+header .img-nosotros {
+  padding-bottom: 100px; }
 
-.margin-button{
-    padding: 400px 0px 200px 0px;
-}
+header .row p {
+  padding: 0;
+  margin: 5px;
+  font-family: 'Poppins', sans-serif; }
 
-.bordes{
-    display: flex;
-    align-items: center;
-    border: solid black 1px;
-    
-}
+header .row h5 {
+  padding-top: 50px;
+  padding-bottom: 40px; }
 
+header .row ul {
+  list-style: none; }
 
-h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
+header .row ul li {
+  padding-bottom: 15px; }
 
-@media(max-width:1220px){
-    h2{
-        font-size: 17px;
-    }
-    h1{
-        font-size: 30px;
-    }
-}
+  /*CONTACTO*/
 
-@media(max-width:768px){
-    h2{
-        font-size: 12px;
-    }
-    h1{
-        font-size: 25px;
-    }
+header .form-label {
+  width: 80px; }
 
-    
-}
+header .formulario {
+  border: solid 1px; }
 
-@media(max-width:594px){
-    h2{
-        font-size: 10px;
-}
-h1{
-    font-size: 18px;
-}
-}
+header .formulario:hover {
+  background-color: #f0e1ff; }
 
-.div-formulario{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+  /*NAVBAR*/
 
-.form-label{
-    width: 80px;
-}
+.navbar-nav {
+  display: flex;
+  margin: 0px 250px 0px 0px;
+  align-content: center;
+  align-items: center; }
 
-.formulario{
-    border: solid 1px;
-}
+.nav-link:hover {
+  background-color: #f0e1ff; }
 
-.formulario:hover{
-    background-color:rgb(240, 225, 255);
-}
+.nav-link {
+  background-color: black;
+  border-radius: 10px; }
 
-.nav-link:hover{
-    background-color: rgb(240, 225, 255);
-}
+.margin {
+  margin: 0px 15px; }
 
+  /*MEDIA RESPONSIVE*/
+
+@media (max-width: 1220px) {
+  h2 {
+    font-size: 17px; }
+  h1 {
+    font-size: 30px; } }
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 12px; }
+  h1 {
+    font-size: 25px; } }
+
+@media (max-width: 594px) {
+  h2 {
+    font-size: 10px; }
+  h1 {
+    font-size: 18px; } }
+
+.div-formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
