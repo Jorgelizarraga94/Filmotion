@@ -3,21 +3,34 @@
   margin: 0;
   box-sizing: border-box; }
 
-  /*index*/
+.botonsegundo {
+  background-color: violet;
+  margin: 0px 20px; }
 
 .body_index {
   background: url(../img/sabri-98.jpg) no-repeat center center/cover;
   width: 100%;
   height: 1000px; }
-  .body_index .btn:hover {
+  .body_index .btn:hover, .body_index .botonsegundo:hover {
     background-color: #f0e1ff; }
   .body_index .container {
     display: flex;
     justify-content: center; }
   .body_index .margin-button {
-    padding: 400px 0px 200px 0px; }
+    padding: 100px 0px 200px 0px; }
 
-    /*INICIO*/
+.container h6 {
+  margin: 200px 0px 0px 0px;
+  padding: 20px;
+  color: white;
+  font-family: arial;
+  text-align: center;
+  background-color: #af75ac;
+  border-radius: 50px; }
+
+.botonsegundo {
+  background-color: violet;
+  margin: 0px 20px; }
 
 body .container-fluid .bg-black {
   padding: 10px 0px 0px 0px; }
@@ -43,6 +56,8 @@ main .row a:hover img {
   filter: blur(2px); }
 
 main .light-box {
+  display: flex;
+  justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -51,16 +66,12 @@ main .light-box {
   width: 100%;
   height: 100vh;
   z-index: 1000;
-  display: flex;
-  justify-content: center;
   align-items: center;
   transform: scale(0); }
 
-
-
 main .next {
   display: block;
-  background: #f0e1ff;
+  background-color: #f0e1ff;
   color: black;
   height: 30px;
   width: 30px;
@@ -87,7 +98,9 @@ main .close {
 .light-box:target {
   transform: scale(1); }
 
-  /*NOSOTROS*/
+.botonsegundo {
+  background-color: violet;
+  margin: 0px 20px; }
 
 header .row h1 {
   display: flex;
@@ -115,7 +128,104 @@ header .row ul {
 header .row ul li {
   padding-bottom: 15px; }
 
-  /*CONTACTO*/
+.botonsegundo {
+  background-color: violet;
+  margin: 0px 20px; }
+
+.botonsegundo {
+  background-color: violet;
+  margin: 0px 20px; }
+
+.body_index {
+  background: url(../img/sabri-98.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 1000px; }
+  .body_index .btn:hover, .body_index .botonsegundo:hover {
+    background-color: #f0e1ff; }
+  .body_index .container {
+    display: flex;
+    justify-content: center; }
+  .body_index .margin-button {
+    padding: 100px 0px 200px 0px; }
+
+.container h6 {
+  margin: 200px 0px 0px 0px;
+  padding: 20px;
+  color: white;
+  font-family: arial;
+  text-align: center;
+  background-color: #af75ac;
+  border-radius: 50px; }
+
+.botonsegundo {
+  background-color: violet;
+  margin: 0px 20px; }
+
+body .container-fluid .bg-black {
+  padding: 10px 0px 0px 0px; }
+
+header .img {
+  border-radius: 300px; }
+
+main .row img {
+  width: 100%;
+  vertical-align: top;
+  object-fit: cover; }
+
+main .img-fluid {
+  border-radius: 100px;
+  margin: 5px 0px; }
+
+main .row > a {
+  display: block;
+  position: relative;
+  overflow: hidden; }
+
+main .row a:hover img {
+  filter: blur(2px); }
+
+main .light-box {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: transform .3s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  align-items: center;
+  transform: scale(0); }
+
+main .next {
+  display: block;
+  background-color: #f0e1ff;
+  color: black;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center; }
+
+main .light-box img {
+  width: 75vw;
+  max-height: 90vh; }
+
+main .close {
+  display: block;
+  position: absolute;
+  top: 90px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #f0e1ff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%; }
+
+.light-box:target {
+  transform: scale(1); }
 
 header .form-label {
   width: 80px; }
@@ -126,7 +236,9 @@ header .formulario {
 header .formulario:hover {
   background-color: #f0e1ff; }
 
-  /*NAVBAR*/
+.botonsegundo {
+  background-color: violet;
+  margin: 0px 20px; }
 
 .navbar-nav {
   display: flex;
@@ -143,8 +255,6 @@ header .formulario:hover {
 
 .margin {
   margin: 0px 15px; }
-
-  /*MEDIA RESPONSIVE*/
 
 @media (max-width: 1220px) {
   h2 {
@@ -169,3 +279,7 @@ header .formulario:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+.botonsegundo {
+  background-color: violet;
+  margin: 0px 20px; }
