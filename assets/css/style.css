@@ -10,16 +10,16 @@
 .body_index {
   background: url(../img/sabri-98.jpg) no-repeat center center/cover;
   width: 100%;
-  height: 750px; }
+  height: 1000px; }
   .body_index .btn:hover, .body_index .botonsegundo:hover {
     background-color: #f0e1ff; }
   .body_index .container {
     display: flex;
     justify-content: center; }
   .body_index .filmotion {
-    margin-top: 250px; }
+    margin-top: 50px; }
   .body_index .margin-button {
-    padding: 0px 0px 300px 0px; }
+    padding: 220px 0px 300px 0px; }
 
 .container h6 {
   margin: 200px 0px 0px 0px;
@@ -141,16 +141,16 @@ header .row ul li {
 .body_index {
   background: url(../img/sabri-98.jpg) no-repeat center center/cover;
   width: 100%;
-  height: 750px; }
+  height: 1000px; }
   .body_index .btn:hover, .body_index .botonsegundo:hover {
     background-color: #f0e1ff; }
   .body_index .container {
     display: flex;
     justify-content: center; }
   .body_index .filmotion {
-    margin-top: 250px; }
+    margin-top: 50px; }
   .body_index .margin-button {
-    padding: 0px 0px 300px 0px; }
+    padding: 220px 0px 300px 0px; }
 
 .container h6 {
   margin: 200px 0px 0px 0px;
